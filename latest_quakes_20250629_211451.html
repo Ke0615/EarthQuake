@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4640969f59d5735fda0f43eec386e85a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4640969f59d5735fda0f43eec386e85a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4640969f59d5735fda0f43eec386e85a = L.map(
+                "map_4640969f59d5735fda0f43eec386e85a",
+                {
+                    center: [36.0, 138.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d1e3daed0335cab35f4d46748febb068 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d1e3daed0335cab35f4d46748febb068.addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+            var marker_0c5a1ab191a1e83bec97ec1ebd0e39f1 = L.marker(
+                [29.3, 129.4],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_2fd427e446387580848164da4fab1508 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c4956b5b078abff715bc483099f9896 = $(`<div id="html_5c4956b5b078abff715bc483099f9896" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 20:46:00</div>`)[0];
+                popup_2fd427e446387580848164da4fab1508.setContent(html_5c4956b5b078abff715bc483099f9896);
+            
+        
+
+        marker_0c5a1ab191a1e83bec97ec1ebd0e39f1.bindPopup(popup_2fd427e446387580848164da4fab1508)
+        ;
+
+        
+    
+    
+            var marker_4a649a918563825297ba5c074be42b47 = L.marker(
+                [29.4, 129.4],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_989d313d7740c5008e326c0c3e54e9f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31c8972a12446a4eb5a06b75b6bea439 = $(`<div id="html_31c8972a12446a4eb5a06b75b6bea439" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 20:31:00</div>`)[0];
+                popup_989d313d7740c5008e326c0c3e54e9f2.setContent(html_31c8972a12446a4eb5a06b75b6bea439);
+            
+        
+
+        marker_4a649a918563825297ba5c074be42b47.bindPopup(popup_989d313d7740c5008e326c0c3e54e9f2)
+        ;
+
+        
+    
+    
+            var marker_f5484375dc8d3278527706ce0942c538 = L.marker(
+                [43.5, 144.8],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_dd19865f6dec14f6e282c4c3d12508fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1931c3beae47d2ec39933d870fea8077 = $(`<div id="html_1931c3beae47d2ec39933d870fea8077" style="width: 100.0%; height: 100.0%;">根室地方北部<br>2025/06/29 20:27:00</div>`)[0];
+                popup_dd19865f6dec14f6e282c4c3d12508fd.setContent(html_1931c3beae47d2ec39933d870fea8077);
+            
+        
+
+        marker_f5484375dc8d3278527706ce0942c538.bindPopup(popup_dd19865f6dec14f6e282c4c3d12508fd)
+        ;
+
+        
+    
+    
+            var marker_d3cc1820157d974f1eaeb86563e193a3 = L.marker(
+                [29.3, 129.5],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_206d6d705d27fdcc9f3f2113fa4b7754 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abc2318cd703ac5be7b82bf018bb2fd4 = $(`<div id="html_abc2318cd703ac5be7b82bf018bb2fd4" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 20:14:00</div>`)[0];
+                popup_206d6d705d27fdcc9f3f2113fa4b7754.setContent(html_abc2318cd703ac5be7b82bf018bb2fd4);
+            
+        
+
+        marker_d3cc1820157d974f1eaeb86563e193a3.bindPopup(popup_206d6d705d27fdcc9f3f2113fa4b7754)
+        ;
+
+        
+    
+    
+            var marker_0195e4697b86c3a7e0dd906c3f545ee5 = L.marker(
+                [29.3, 129.4],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_a167772108bca8ab7cccc42313462e32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a89cc9dac3321b05d1580e936c04ff18 = $(`<div id="html_a89cc9dac3321b05d1580e936c04ff18" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 20:16:00</div>`)[0];
+                popup_a167772108bca8ab7cccc42313462e32.setContent(html_a89cc9dac3321b05d1580e936c04ff18);
+            
+        
+
+        marker_0195e4697b86c3a7e0dd906c3f545ee5.bindPopup(popup_a167772108bca8ab7cccc42313462e32)
+        ;
+
+        
+    
+    
+            var marker_431b58ad950812b742a58ebe29616eab = L.marker(
+                [29.3, 129.4],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_6db0180b59d608ab74209261d170015c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37f8ba6d5ea735a2b7d234afcbc974a8 = $(`<div id="html_37f8ba6d5ea735a2b7d234afcbc974a8" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 20:09:00</div>`)[0];
+                popup_6db0180b59d608ab74209261d170015c.setContent(html_37f8ba6d5ea735a2b7d234afcbc974a8);
+            
+        
+
+        marker_431b58ad950812b742a58ebe29616eab.bindPopup(popup_6db0180b59d608ab74209261d170015c)
+        ;
+
+        
+    
+    
+            var marker_d22918898b292e91e542a1ac2d48299c = L.marker(
+                [29.3, 129.5],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_1948d648219b643fa77c0c570df9f50a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcf00d439f818f6519cdaf40178a28c8 = $(`<div id="html_dcf00d439f818f6519cdaf40178a28c8" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 20:04:00</div>`)[0];
+                popup_1948d648219b643fa77c0c570df9f50a.setContent(html_dcf00d439f818f6519cdaf40178a28c8);
+            
+        
+
+        marker_d22918898b292e91e542a1ac2d48299c.bindPopup(popup_1948d648219b643fa77c0c570df9f50a)
+        ;
+
+        
+    
+    
+            var marker_968c074c68dcf4b5ea9c91ff971651fc = L.marker(
+                [29.3, 129.4],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_ecd4a6ab77ace65ef091ba37dbe8b1da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_753ad9acee6f5ce63116f89d2b6160e2 = $(`<div id="html_753ad9acee6f5ce63116f89d2b6160e2" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 19:58:00</div>`)[0];
+                popup_ecd4a6ab77ace65ef091ba37dbe8b1da.setContent(html_753ad9acee6f5ce63116f89d2b6160e2);
+            
+        
+
+        marker_968c074c68dcf4b5ea9c91ff971651fc.bindPopup(popup_ecd4a6ab77ace65ef091ba37dbe8b1da)
+        ;
+
+        
+    
+    
+            var marker_44ce9fcd383787b33f855aaa89e326d4 = L.marker(
+                [29.3, 129.4],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_ac80d574b9fd70b837bc2788b019ea0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_778921ca26bfbb75329f4cbca376ba55 = $(`<div id="html_778921ca26bfbb75329f4cbca376ba55" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 19:39:00</div>`)[0];
+                popup_ac80d574b9fd70b837bc2788b019ea0b.setContent(html_778921ca26bfbb75329f4cbca376ba55);
+            
+        
+
+        marker_44ce9fcd383787b33f855aaa89e326d4.bindPopup(popup_ac80d574b9fd70b837bc2788b019ea0b)
+        ;
+
+        
+    
+    
+            var marker_1863ba60d5c9eba35473195c8cc447dd = L.marker(
+                [29.3, 129.5],
+                {
+}
+            ).addTo(map_4640969f59d5735fda0f43eec386e85a);
+        
+    
+        var popup_770095c31e5873810a3fc7029ad44814 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7aaeec5d4c11530d37b0d2089dc5f3f = $(`<div id="html_e7aaeec5d4c11530d37b0d2089dc5f3f" style="width: 100.0%; height: 100.0%;">トカラ列島近海<br>2025/06/29 19:20:00</div>`)[0];
+                popup_770095c31e5873810a3fc7029ad44814.setContent(html_e7aaeec5d4c11530d37b0d2089dc5f3f);
+            
+        
+
+        marker_1863ba60d5c9eba35473195c8cc447dd.bindPopup(popup_770095c31e5873810a3fc7029ad44814)
+        ;
+
+        
+    
+</script>
+</html>
